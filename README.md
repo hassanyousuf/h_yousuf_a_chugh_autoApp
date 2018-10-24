@@ -57,6 +57,6 @@ Create a repository on Github including a detailed Readme file. Put the appropri
 
 ## Authors
 
-* [****]()
+
 
 ## References
