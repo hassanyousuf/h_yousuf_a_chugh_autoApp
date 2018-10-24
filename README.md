@@ -56,8 +56,8 @@ Create a repository on Github including a detailed Readme file. Put the appropri
 - [ ] Submit
 
 ## Authors
-Hassan Yousuf - Developer
-Apurav chugh - Designer
+*Hassan Yousuf - Developer
+*Apurav chugh - Designer
 
 
 ## References
