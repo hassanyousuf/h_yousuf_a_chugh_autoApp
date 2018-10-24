@@ -1,0 +1,48 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.hidden
+{
+	display: none;
+}
+
+#box3
+{
+
+}
+#box1, #box2, #box3
+{
+
+}
+
+@media screen and (min-width:1160px;)
+{
+	foat:left;
+
+}
+#box1
+{
+	width:30%;
+}
+
+#box2
+{
+	width:30%;
+
+}
+
+#box3
+{
+	width:40%;
+
+
+}
+}
+
+@media screen and (min-width:1160px){
+/* to make container stop growing */
+	#container
+	{
+		width:1160px;
+	}
+}
