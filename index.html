@@ -1,14 +1,36 @@
 <!doctype html>
 <html lang="en">
-<head>
-<meta charset="UTF-8">
-<title>Home</title>
-<link href="css/reset.css" rel="stylesheet" type="text/css">
-<link href="css/main.css" rel="stylesheet" type="text/css">
+    <head>
+        <meta charset="UTF-8">
+        <title>Home</title>
+        <link href="css/reset.css" rel="stylesheet" type="text/css">
+        <link href="css/styles.css" rel="stylesheet" type="text/css">
+        <script src="https://cdn.jsdelivr.net/npm/vue@2.5.18/dist/vue.js"></script>
 </head>
 
 <body>
+    
 
+ <!-- test text from database -->
+ <div v-on:click="info" id="app">
+    <p class=first>{{ mainmessage }}</p>
+</div>
+
+
+    <!-- <div id="app">
+        {{ message}}
+    </div>
+     -->
+    <div id="app-2">
+        <span v-bind:title="message">
+            Hover your mouse over me for a few seconds
+            to see my dynamically bound title!
+        </span>
+    </div>
+    
 </body>
-<link href="js/main.js" rel="stylesheet" type="text/js">
+<script src="js/main.js"></script>
 </html>
+
+
+
